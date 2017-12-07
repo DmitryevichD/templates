@@ -2,9 +2,8 @@
 
 .info - information about pattern
 
-.puml - uml diagram (http://plantuml.com/class-diagram)
+.puml - [uml diagram](http://plantuml.com/class-diagram)
 
-Для просмотра puml диаграм в idea необходимо можно скачать плагин 
-PlantUML integration (https://plugins.jetbrains.com/plugin/7017-plantuml-integration)
-или посмотреть здесь (http://plantuml.com/running)
+To view uml in the idea, you can use [plugin](https://plugins.jetbrains.com/plugin/7017-plantuml-integration) 
+or see [here](http://plantuml.com/running)
 
