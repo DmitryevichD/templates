@@ -1,0 +1,21 @@
+http://plantuml.com/class-diagram
+@startuml
+class Client{
+}
+interface Handler{
++handle()
+}
+class ConcreteHandler1{
++handle()
+}
+class ConcreteHandler2{
++handle()
+}
+
+Client --> Handler
+Handler --> Handler : nextHandler()
+ConcreteHandler1 --|> Handler
+ConcreteHandler2 --|> Handler
+
+
+@enduml
