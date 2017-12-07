@@ -1,0 +1,21 @@
+http://plantuml.com/class-diagram
+@startuml
+class Caretaker{
+}
+class Memento{
+-state
++getState()
+}
+class Originator{
+-state
++setMemento()
++createMemento()
+}
+
+Caretaker o-- Memento
+Memento <|.. Originator
+
+note right of Caretaker : Сторож. Хранит состояния
+note right of Memento : Хранитель. В нем сохраняется само состяние
+note right of Originator : Создатель. Объект, состяние которого мы хотим сохранить
+@enduml
